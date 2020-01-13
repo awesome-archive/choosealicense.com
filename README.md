@@ -17,8 +17,8 @@ We catalog [select](CONTRIBUTING.md#adding-a-license) open source licenses with 
 ```bash
 git clone https://github.com/github/choosealicense.com.git
 cd choosealicense.com
-script/bootstrap
-script/server
+./script/bootstrap
+./script/server
 ```
 
 Open `http://localhost:4000` in your favorite browser.
@@ -81,6 +81,7 @@ The license properties (rules) are stored as a bulleted list within the licenses
 #### Conditions
 
 * `include-copyright` - A copy of the license and copyright notice must be included with the software.
+* `include-copyright--source` - A copy of the license and copyright notice must be included with the software in source form, but is not required for binaries.
 * `document-changes` - Changes made to the code must be documented.
 * `disclose-source` - Source code must be made available when the software is distributed.
 * `network-use-disclose` - Users who interact with the software via network are given the right to receive a copy of the source code.
